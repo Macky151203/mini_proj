@@ -83,7 +83,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col md:flex-row gap-4">
           <div className="flex flex-row items-center">
-            <label className="m-1">Diabefunc:</label>
+            <label className="m-1">Diabefunction:</label>
             <input className="text-black p-1 rounded-md" type="text" placeholder="diabe" onChange={(e) => setdiabefunc(e.target.value)} />
           </div>
           <div className="flex flex-row items-center">
