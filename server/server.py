@@ -13,11 +13,13 @@ def hello():
         prediction=p.predictresult(input_data)
         print("prediction is-",prediction)
         return jsonify({
-            'result':str(prediction[0]),
+            'logistic':str(prediction[0]),
+            'svm':str(prediction[1]),
+            'knn':str(prediction[2]),
+            'dt':str(prediction[3]),
+            'rf':str(prediction[4]),
         })
-    # return jsonify({
-    #     'message':'hello bro'
-    # })
+    
 
 
 if __name__=="__main__":
